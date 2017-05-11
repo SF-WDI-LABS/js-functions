@@ -53,7 +53,9 @@ A function is a named piece of code. A function can be thought of as a program w
 
 <details>
   <summary>With a partner, at the board, draw a model of one of the above functions.</summary>
-  <p>![image](https://cloud.githubusercontent.com/assets/6520345/17683207/d55e5fda-6305-11e6-93e2-fdd72a87f81a.png)</p>
+
+![image](https://cloud.githubusercontent.com/assets/6520345/17683207/d55e5fda-6305-11e6-93e2-fdd72a87f81a.png)
+
 </details>
 
 # Function definition and function calls
@@ -142,7 +144,7 @@ When thinking about functions, we can broadly separate them into two types: *voi
 
 In general, `console.log` is a function you only need to use in two situations: when you're trying to debug something, or when the description of a function *specifically* asks you to print something to the console.
 
-###Practice
+### Practice
 Work in partners & whiteboard to fill in this table.
 
 |Function description|Void or fruitful?|Parameters & types|Return type|
@@ -163,6 +165,7 @@ Work in partners & whiteboard to fill in this table.
 Functions can take multiple parameters.  Each parameter must be separated from another by a comma.  
 
 ```javascript
+
    	// Add two integers
     // function definition
     function sum(a, b) {
@@ -283,7 +286,7 @@ In the case of the function spacesToDashes, the name describes the function and 
 
 
 
-##Functions on Booleans
+## Functions on Booleans
 Functions are able to receive and return boolean values.  Functions that return boolean values are commonly used to check the states of variables and whether conditions are met.
 
 > **Note:** It is best practice to name functions with boolean return values with a prefix of 'is', 'has', or 'can.'
@@ -381,7 +384,7 @@ console.log(mult);
 
 ## The keyword `this`
 
-`this` is a very common word in english with a somewhat vague meaning. In javascript, `this` is a common and important concept related to scope, but distinct from it. As [Ryan Morr mentions in this blog post](http://ryanmorr.com/understanding-scope-and-context-in-javascript/):
+`this` is a very common word in English with a somewhat vague meaning. In javascript, `this` is a common and important concept related to scope, but distinct from it. As [Ryan Morr mentions in this blog post](http://ryanmorr.com/understanding-scope-and-context-in-javascript/):
 
 >Every function invocation has both a scope and a context associated with it. Fundamentally, scope is function-based while context is object-based. In other words, scope pertains to the variable access of a function when it is invoked and is unique to each invocation. Context is always the value of the `this` keyword which is a reference to the object that “owns” the currently executing code.
 
@@ -409,7 +412,7 @@ var shape = {
 Refine the skills covered in this workshop with some [Function Training](https://github.com/SF-WDI-LABS/functions-exercises).
 
 # Closing Thoughts
-- You should now know the difference between defining and calling a function, you should be able to write functions that return values.
+- You should now know the difference between defining and calling a function, and you should be able to write functions that return values.
 - Soon, you'll learn more about JavaScript objects and how they relate to JS functions. You'll see that you can use *constructor functions* to generate objects.
 - You're going to be writing functions from here on out! Get used to thinking of them as nice containers of functionality that can be reused over and over.
 
