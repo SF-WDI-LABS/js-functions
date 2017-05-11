@@ -166,7 +166,7 @@ Functions can take multiple parameters.  Each parameter must be separated from a
 
 ```javascript
 
-   	// Add two integers
+    // Add two integers
     // function definition
     function sum(a, b) {
         return a + b;
