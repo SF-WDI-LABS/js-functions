@@ -217,7 +217,7 @@ Functions may perform actions upon Strings as well.
     // print uppercase version of string
 
     // function definition
-    function shoutToConsole(phrase) {
+    function shout(phrase) {
         console.log(phrase.toUpperCase());
     }
 
@@ -229,7 +229,7 @@ Functions may perform actions upon Strings as well.
     // print lowercase version of string
 
     // function definition
-    function whisperToConsole(phrase) {
+    function whisper(phrase) {
         console.log(phrase.toLowerCase());
     }
 
